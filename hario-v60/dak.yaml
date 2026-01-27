@@ -1,0 +1,42 @@
+id: dak-20-360
+name: Dak 20g/360ml
+description: >
+  A balanced three-pour recipe with a strong bloom phase.
+  Works well with medium to light roasts.
+author: Community
+
+coffeeGrams: 20
+totalWaterGrams: 360
+grindSize: Medium
+waterTemp: 94
+
+phases:
+  - name: Bloom
+    targetGrams: 100
+    durationSec: 20
+    isPour: true
+
+  - name: Wait
+    targetGrams: 100
+    durationSec: 40
+    isPour: false
+
+  - name: Pour 1
+    targetGrams: 230
+    durationSec: 15
+    isPour: true
+
+  - name: Wait
+    targetGrams: 230
+    durationSec: 25
+    isPour: false
+
+  - name: Pour 2
+    targetGrams: 360
+    durationSec: 15
+    isPour: true
+
+  - name: Drawdown
+    targetGrams: 360
+    durationSec: 125
+    isPour: false

@@ -1,0 +1,43 @@
+id: hoffmann-v60
+name: Hoffmann V60
+description: >
+  James Hoffmann's ultimate V60 technique. A reliable, balanced method
+  that produces consistent results with most coffees.
+author: James Hoffmann
+source: https://www.youtube.com/watch?v=AI4ynXzkSQo
+
+coffeeGrams: 15
+totalWaterGrams: 250
+grindSize: Medium-fine
+waterTemp: 95
+
+phases:
+  - name: Bloom
+    targetGrams: 50
+    durationSec: 45
+    isPour: true
+
+  - name: Wait
+    targetGrams: 50
+    durationSec: 30
+    isPour: false
+
+  - name: Pour 1
+    targetGrams: 150
+    durationSec: 30
+    isPour: true
+
+  - name: Wait
+    targetGrams: 150
+    durationSec: 30
+    isPour: false
+
+  - name: Pour 2
+    targetGrams: 250
+    durationSec: 30
+    isPour: true
+
+  - name: Drawdown
+    targetGrams: 250
+    durationSec: 60
+    isPour: false

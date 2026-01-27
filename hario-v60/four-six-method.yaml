@@ -1,0 +1,64 @@
+id: four-six
+name: 4:6 Method
+description: >
+  Tetsu Kasuya's award-winning technique that divides the brew into two parts:
+  40% for sweetness/acidity balance, 60% for strength. Adjust the first two
+  pours to tune flavor.
+author: Tetsu Kasuya
+source: World Brewers Cup 2016
+
+coffeeGrams: 20
+totalWaterGrams: 300
+grindSize: Coarse
+waterTemp: 92
+
+phases:
+  - name: Pour 1
+    targetGrams: 50
+    durationSec: 45
+    isPour: true
+
+  - name: Wait
+    targetGrams: 50
+    durationSec: 45
+    isPour: false
+
+  - name: Pour 2
+    targetGrams: 120
+    durationSec: 45
+    isPour: true
+
+  - name: Wait
+    targetGrams: 120
+    durationSec: 45
+    isPour: false
+
+  - name: Pour 3
+    targetGrams: 180
+    durationSec: 45
+    isPour: true
+
+  - name: Wait
+    targetGrams: 180
+    durationSec: 45
+    isPour: false
+
+  - name: Pour 4
+    targetGrams: 240
+    durationSec: 45
+    isPour: true
+
+  - name: Wait
+    targetGrams: 240
+    durationSec: 45
+    isPour: false
+
+  - name: Pour 5
+    targetGrams: 300
+    durationSec: 45
+    isPour: true
+
+  - name: Drawdown
+    targetGrams: 300
+    durationSec: 60
+    isPour: false

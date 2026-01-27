@@ -1,0 +1,52 @@
+id: hydrangea
+name: Hydrangea 20g/320ml
+description: >
+  A gentle four-pour recipe with shorter intervals.
+  Creates a clean, bright cup with good clarity.
+author: Community
+
+coffeeGrams: 20
+totalWaterGrams: 320
+grindSize: Medium-fine
+waterTemp: 93
+
+phases:
+  - name: Bloom
+    targetGrams: 60
+    durationSec: 10
+    isPour: true
+
+  - name: Wait
+    targetGrams: 60
+    durationSec: 20
+    isPour: false
+
+  - name: Pour 1
+    targetGrams: 170
+    durationSec: 18
+    isPour: true
+
+  - name: Wait
+    targetGrams: 170
+    durationSec: 17
+    isPour: false
+
+  - name: Pour 2
+    targetGrams: 260
+    durationSec: 15
+    isPour: true
+
+  - name: Wait
+    targetGrams: 260
+    durationSec: 15
+    isPour: false
+
+  - name: Pour 3
+    targetGrams: 320
+    durationSec: 10
+    isPour: true
+
+  - name: Drawdown
+    targetGrams: 320
+    durationSec: 135
+    isPour: false
