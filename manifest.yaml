@@ -1,7 +1,7 @@
 # Auto-generated manifest - do not edit manually
-# Generated: 2026-01-25T05:59:06Z
+# Generated: 2026-01-30T01:34:25Z
 
-checksum: 3532247cbefb28d87b45badd638dfcf72f5abf10080ed893c59b21e65d7013c2
+checksum: 5c159fc7c53bbd277906689e528ec2ab577ba8cffa129a765c39bfeeba552614
 
 recipes:
   - hario-v60/dak.yaml

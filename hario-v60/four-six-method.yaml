@@ -19,7 +19,6 @@ phases:
     isPour: true
 
   - name: Wait
-    targetGrams: 50
     durationSec: 45
     isPour: false
 
@@ -29,7 +28,6 @@ phases:
     isPour: true
 
   - name: Wait
-    targetGrams: 120
     durationSec: 45
     isPour: false
 
@@ -39,7 +37,6 @@ phases:
     isPour: true
 
   - name: Wait
-    targetGrams: 180
     durationSec: 45
     isPour: false
 
@@ -49,7 +46,6 @@ phases:
     isPour: true
 
   - name: Wait
-    targetGrams: 240
     durationSec: 45
     isPour: false
 
@@ -59,6 +55,5 @@ phases:
     isPour: true
 
   - name: Drawdown
-    targetGrams: 300
     durationSec: 60
     isPour: false
